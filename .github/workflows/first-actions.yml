@@ -1,8 +1,6 @@
 name: My First GitHub Actions
 
-on:
-  push:
-  workflow_dispatch:  # This allows manual trigger
+on: [push]
 
 jobs:
   build:
